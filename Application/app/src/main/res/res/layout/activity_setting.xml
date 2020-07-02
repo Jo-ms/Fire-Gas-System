@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/image"
+        android:src="@drawable/setting_title" />
+
+    <Switch
+        android:id="@+id/ID_SETTING_PUMP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setting_water" />
+
+    <Switch
+        android:id="@+id/ID_SETTING_BUZZER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setting_buzzer" />
+
+    <Switch
+        android:id="@+id/ID_SETTING_MOTOR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setting_dcmotor" />
+
+    <Switch
+        android:id="@+id/ID_SETTING_RGBLED"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setting_rgb" />
+
+    <Switch
+        android:id="@+id/ID_SETTING_SENSOR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setting_sensor" />
+
+    <ImageView
+        android:id="@+id/ID_SETTING_EMERGENCY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/setting_emergency" />
+
+</LinearLayout>

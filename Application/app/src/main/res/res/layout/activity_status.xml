@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/image"
+        android:src="@drawable/status_title" />
+
+    <ImageView
+        android:id="@+id/ID_STATUS_SPARK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/status_fire"
+        android:contentDescription="@string/image" />
+
+    <ImageView
+        android:id="@+id/ID_STATUS_SMOKE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/status_gas"
+        android:contentDescription="@string/image" />
+
+    <TextView
+        android:id="@+id/ID_STATUS_TEMP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/status_temperature"
+        android:contentDescription="@string/image"
+        android:paddingLeft="250dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/ID_STATUS_HUMID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/status_humid"
+        android:contentDescription="@string/image"
+        android:paddingLeft="250dp"
+        android:textSize="25sp" />
+
+    <!--
+    ImageView
+        android:id="@+id/ID_SENSOR_FIRE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/status_"
+        android:contentDescription="@string/image" />
+
+    <ImageView
+        android:id="@+id/ID_SENSOR_GAS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/status_humid"
+        android:contentDescription="@string/image" />
+
+    <ImageView
+        android:id="@+id/ID_SENSOR_TEMPERATURE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/status_humid"
+        android:contentDescription="@string/image" />
+
+    <ImageView
+        android:id="@+id/ID_SENSOR_HUMID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/status_humid"
+        android:contentDescription="@string/image" /-->
+
+    <ImageView
+        android:id="@+id/ID_FIRE_PUMP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/status_water"
+        android:contentDescription="@string/image" />
+
+    <ImageView
+        android:id="@+id/ID_FIRE_BUZZER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/status_buzzer"
+        android:contentDescription="@string/image" />
+
+    <ImageView
+        android:id="@+id/ID_FIRE_MOTOR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/status_dcmotor"
+        android:contentDescription="@string/image" />
+
+    <ImageView
+        android:id="@+id/ID_FIRE_LED"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/status_rgb"
+        android:contentDescription="@string/image" />
+
+</LinearLayout>

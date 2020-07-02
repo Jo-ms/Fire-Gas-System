@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="STR_SAVE">저장</string> 
+    <string name="STR_CANCEL">취소</string> 
+    <string name="STR_NORMAL">정상</string>
+    <string name="STR_UNNORMAL">불량</string>
+    <string name="STR_HISTORY">이벤트 로그</string>
+    <string name="STR_CLOSE">닫기</string>
+    
+    <string name="PROMPT_PHONE">Number</string>
+    
+    <string name="app_name">화재 감시</string> 
+    <string name="image">image</string>
+    <string name="title_activity_status">StatusActivity</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_log">LogActivity</string>
+    <string name="title_activity_history">HistoryActivity</string>
+
+    <string name="STR_STATUS_SPARK">불꽃 감지</string>
+    <string name="STR_STATUS_SMOKE">연기/가스</string>
+    <string name="STR_STATUS_TEMP">현장 습도</string>
+    <string name="STR_STATUS_HUMID">현장 온도</string>
+     
+    <string name="STR_SETTING_PUMP">워터펌프</string>
+    <string name="STR_SETTING_BUZZER">싸이렌</string>
+    <string name="STR_SETTING_MOTOR">DC motor</string> 
+    <string name="STR_SETTING_RGBLED">RGB LED</string>
+    <string name="STR_SETTING_EMERGENCY">긴급연락 설정</string>
+    <string name="STR_SETTING_USE">사용</string>
+    <string name="STR_SETTING_SENSOR">현장 센서 감시</string>
+    <string name="STR_SETTING_SHUTTER">현장 셔터 차단</string>
+    <string name="STR_SETTING_MIC">마이크 방송</string> 
+    <string name="STR_SETTING_CONFIRM">반영</string>
+    <string name="STR_SETTING_CANCEL">취소</string>
+    
+    <string name="STR_LOG_CAMERA">카메라 현장 보기</string>
+    <string name="STR_LOG_112">112 신고</string>
+    <string name="STR_LOG_EMERGENCY">긴급연락</string>
+    <string name="STR_LOG_HISTORY">이벤트 이력</string>
+    
+    <string name="STR_SENSOR_FIRE">워터펌프</string>
+    <string name="STR_SENSOR_GAS">싸이렌</string>
+    <string name="STR_SENSOR_TEMPERATURE">온도</string>
+    <string name="STR_SENSOR_HUMID">습도</string> 
+    <string name="STR_FIRE_PUMP">워터펌프</string>
+    <string name="STR_FIRE_BUZZER">싸이렌</string>
+    <string name="STR_FIRE_MOTOR">DC Motor</string>
+    <string name="STR_FIRE_LED">RGB LED</string> 
+</resources>

@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/main_title" />
+
+    <ImageView
+        android:layout_width="188dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="30dp"        
+        android:contentDescription="@string/image"
+        android:src="@drawable/main_logo" />
+
+    <ImageView
+        android:id="@+id/BTN_POPUP_STATUS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/image"
+        android:src="@drawable/main_status" />
+
+    <ImageView
+        android:id="@+id/BTN_POPUP_CAMERA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/image"
+        android:src="@drawable/main_camera" />
+
+    <ImageView
+        android:id="@+id/BTN_POPUP_SETTING"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/image"
+        android:src="@drawable/main_setting" />
+
+    <ImageView
+        android:id="@+id/BTN_POPUP_LOG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/image"
+        android:src="@drawable/main_event" />
+
+    <ImageView
+        android:id="@+id/BTN_POPUP_CONNECT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/image"
+        android:src="@drawable/main_connect" />
+
+    <ImageView
+        android:id="@+id/IMG_MAIN_BOTTOM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/main_foot" />
+
+</LinearLayout>
